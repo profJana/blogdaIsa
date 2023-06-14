@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(252, 235, 253);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: arial;
+}
+
+.cardLogin{
+    margin-top: 100px;
+    background-color: aliceblue;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(104, 92, 92, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+}
+
+.cardLogin label{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+#senha{
+    border: none;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+#entrar{
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+#entrar:hover{
+    background-color: #ecfcf2;
+}
+

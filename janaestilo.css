@@ -1,0 +1,43 @@
+:root{
+    --color1: #afc7b9;
+    --color2: #ffe1c9;
+    --color3:#fac7b4;
+    --color4:#fca89d;
+    --color5:#998b82;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: var(--color4);
+    height: 200px;
+    padding: 20px;
+}
+.fundo{
+    background-color: white;
+    height: 195px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tituloTopo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 30px;
+}
+#profjanaTopo{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin: 0;
+}
+
+
+/*background-color: var(--main-bg-color);*/
